@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f6fa;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+  }
+  
+  .container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .form button:hover {
+    background-color: #27ae60;
+  }
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .transactions {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .transactions li {
+    background: #eee;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .transactions .plus {
+    border-color: #2ecc71;
+  }
+  
+  .transactions .minus {
+    border-color: #e74c3c;
+  }
+  
